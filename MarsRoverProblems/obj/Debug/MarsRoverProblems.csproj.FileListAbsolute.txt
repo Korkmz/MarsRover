@@ -1,0 +1,5 @@
+C:\Users\Intime\source\repos\Solution\MarsRoverProblems\bin\Debug\MarsRoverProblems.dll
+C:\Users\Intime\source\repos\Solution\MarsRoverProblems\bin\Debug\MarsRoverProblems.pdb
+C:\Users\Intime\source\repos\Solution\MarsRoverProblems\obj\Debug\MarsRoverProblems.csproj.CoreCompileInputs.cache
+C:\Users\Intime\source\repos\Solution\MarsRoverProblems\obj\Debug\MarsRoverProblems.dll
+C:\Users\Intime\source\repos\Solution\MarsRoverProblems\obj\Debug\MarsRoverProblems.pdb
