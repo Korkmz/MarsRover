@@ -44,7 +44,7 @@ namespace MarsRoverProblems
 
 
         /// <summary>
-        /// L ve R göre yeni konumu bulan methodtur.
+        /// L ve R göre yeni yönünü bularak yeni konumu döndüren methodtur.
         /// L yapacak ise 90 derecelik açı ile sola hareket edecektir. 
         /// R yapacak ise 90 derecelik açı ile sağa hareket edecektir.
         /// </summary>
@@ -54,7 +54,10 @@ namespace MarsRoverProblems
         {
             var oldRotate = initialValue[2].ToString(); // o anki yön bilgisi dir.
 
-            List<string> cardinalDirection = new List<string> { "N", "E", "S", "W" };
+            List<string> cardinalDirection = new List<string> { "N", "E", "S", "W" }; // yön bilgileri listede tutuludu.
+                                                                                      // 90 lık açı sola veye sağa gidilmek istendiginde o anki yöne göre
+                                                                                      // listeninin bir önceki elemanı veya bir sonraki elemani
+                                                                                      // yeni yön bilgisi olacaktır.
             var yon = cardinalDirection.FindIndex(x => x == oldRotate);
 
             #region L ve R göre yeni yön bulmaktadır.
