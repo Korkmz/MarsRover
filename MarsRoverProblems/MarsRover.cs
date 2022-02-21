@@ -16,6 +16,11 @@ namespace MarsRoverProblems
                 ArrayList initialValue = entry.Key;
                 List<string> rotateList = entry.Value;
 
+                if(initialValue[0].GetType() != typeof(int) ||
+                    initialValue[1].GetType() != typeof(int) ||
+                    initialValue[2].GetType() != typeof(string)) // Konum bilgilerinin tipleri kontrol edilir. x ve y kordinat bilgileri int olmalıdır. Ve yön bilgiside string tipte olmalıdır.
+                    break;
+
                 for (var i = 0; i < rotateList.Count; i++)
                 {
                     var direction = rotateList[i];           // hareket etmesi gereken yön bilgsidir.
